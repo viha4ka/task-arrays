@@ -25,7 +25,7 @@ export function arrayFiltering(data) {
   значения из первых двух массивов, и верните его в качестве результата функции.
 */
 export function arrayPushing(array1, array2) {
-    et array3 = [];
+    let array3 = [];
     for (let i = 0; i < array1.length; i++) {
         array3.push(array1[i], array2[i]);
     }
